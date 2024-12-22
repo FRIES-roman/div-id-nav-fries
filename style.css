@@ -1,12 +1,51 @@
+/* Navigační panel */
+nav ul {
+    list-style: none; /* Odstranění odrážek */
+    display: flex; /* Horizontální zarovnání */
+    gap: 15px; /* Mezera mezi položkami */
+    padding: 10px; /* Vnitřní odsazení */
+    background-color: lightgray; /* Barva pozadí navigace */
+    margin: 0; /* Odstranění vnějšího odsazení */
+    justify-content: center; /* Zarovnání na střed */
+}
+
+nav ul li a {
+    text-decoration: none; /* Odstranění podtržení */
+    color: black; /* Barva textu */
+    padding: 8px 15px; /* Vnitřní odsazení odkazů */
+    background-color: white; /* Barva pozadí odkazů */
+    border: 1px solid black; /* Ohraničení */
+    border-radius: 5px; /* Zaoblení rohů */
+}
+
+nav ul li a:hover {
+    background-color: black; /* Barva pozadí při najetí myší */
+    color: white; /* Barva textu při najetí myší */
+}
+
+/* Styl jednotlivých sekcí */
+#lev, #slon, #tygr {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
 #lev {
     background-color: gold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 #slon {
     background-color: red;
-    font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
+
 #tygr {
     background-color: aqua;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Zajištění vizuálního oddělení sekcí */
+div {
+    margin-bottom: 20px;
 }
