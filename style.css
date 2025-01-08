@@ -1,12 +1,57 @@
-#lev {
-    background-color: gold;
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#slon {
-    background-color: red;
-    font-family: 'Times New Roman', Times, serif;
+#navbar {
+    background-color: #333; 
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%; 
 }
+#navbar ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+#navbar ul li a {
+    color: white;
+    text-decoration: none; 
+    padding: 8px 16px;
+    font-size: 18px;
+}
+#navbar ul li a:hover {
+    background-color: #575757; 
+}
+
+div {
+    padding: 16px;
+    margin: 60px 0; 
+    border-radius: 8px;
+}
+#lev {
+    background-color: blueviolet;
+    color: white;
+}
+
+#slon {
+    background-color: palevioletred;
+    color: white;
+}
+
 #tygr {
-    background-color: aqua;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
