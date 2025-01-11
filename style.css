@@ -30,12 +30,10 @@ body {
 
 #navbar ul li a:hover {
     background-color: #575757;
-    border-radius: 4px; 
 }
 div {
     padding: 16px;
     margin: 60px ; 
-    border-radius: 8px;
 }
 #lev {
     background-color: blueviolet;
