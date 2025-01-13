@@ -3,17 +3,12 @@ body {
 }
 #navbar {
     background-color: black; 
-    padding: 10px 0;
     text-align: center;
-    position: fixed;
-    top: 0;
     width: 100%; 
 }
 
 #navbar ul {
     list-style-type: none; 
-    margin: 0;
-    padding: 0;
 }
 
 #navbar ul li {
@@ -54,7 +49,6 @@ a {
     color: rgb(205, 50, 50);
     text-decoration: none;
 }
-
 a:hover {
     text-decoration: underline;
 }
